@@ -90,6 +90,8 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``o/::{U+00F8}
 :CO?:``O/'::{U+01FE}
 :CO?:``o/'::{U+01FF}
+:CO?:``OG::{U+01EA}
+:CO?:``og::{U+01EB}
 
 :CO?:``oh::{U+0254}
 
