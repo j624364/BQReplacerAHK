@@ -32,6 +32,7 @@ SetWorkingDir %A_ScriptDir%
 
 :CO?:``ah::{U+0251}
 :CO?:``ao::{U+0252}
+:CO?:``amc::{U+0250}
 
 :CO?:``E`'::{U+00C9}
 :CO?:``e`'::{U+00E9}
