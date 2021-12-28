@@ -233,6 +233,21 @@ SetWorkingDir %A_ScriptDir%
 
 :CO?:``!::{U+00A1}
 
+; insular letters
+
+:CO?:``insD::{U+A779}
+:CO?:``insd::{U+A77A}
+:CO?:``insF::{U+A77B}
+:CO?:``insf::{U+A77C}
+:CO?:``insG::{U+A77D}
+:CO?:``insg::{U+1D79}
+:CO?:``insR::{U+A782}
+:CO?:``insr::{U+A783}
+:CO?:``insS::{U+A784}
+:CO?:``inss::{U+A785}
+:CO?:``insT::{U+A786}
+:CO?:``inst::{U+A787}
+
 ; currency
 
 :CO?:``cent::{U+00A2}
