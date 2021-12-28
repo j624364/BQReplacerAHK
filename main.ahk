@@ -231,6 +231,8 @@ SetWorkingDir %A_ScriptDir%
 
 :CO?:``?::{U+0294}
 
+:CO?:``!::{U+00A1}
+
 ; symbols
 
 :CO?:``short::{U+0306}
