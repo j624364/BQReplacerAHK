@@ -233,6 +233,14 @@ SetWorkingDir %A_ScriptDir%
 
 :CO?:``!::{U+00A1}
 
+:CO?:``cent::{U+00A2}
+:CO?:``yen::{U+00A5}
+:CO?:``sim::{U+00A7}
+:CO?:``euro::{U+20AC}
+:CO?:``drachma::{U+20AC}
+:CO?:``indrupee::{U+20B9}
+:CO?:``bitcoin::{U+20BF}
+
 ; symbols
 
 :CO?:``short::{U+0306}
