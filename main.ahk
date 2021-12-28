@@ -233,6 +233,8 @@ SetWorkingDir %A_ScriptDir%
 
 :CO?:``!::{U+00A1}
 
+; currency
+
 :CO?:``cent::{U+00A2}
 :CO?:``yen::{U+00A5}
 :CO?:``sim::{U+00A7}
