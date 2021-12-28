@@ -237,7 +237,7 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``yen::{U+00A5}
 :CO?:``sim::{U+00A7}
 :CO?:``euro::{U+20AC}
-:CO?:``drachma::{U+20AC}
+:CO?:``drachma::{U+20AF}
 :CO?:``indrupee::{U+20B9}
 :CO?:``bitcoin::{U+20BF}
 
@@ -250,4 +250,15 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``div::{U+00F7}
 :CO?:``+-::{U+00B1}
 :CO?:``=/::{U+2260}
+
+:CO?:``partdiff::{U+2202}
+:CO?:``increment::{U+2206}
+:CO?:``product::{U+220F}
+:CO?:``sum::{U+2211}
+:CO?:``dot::{U+22C5}
+:CO?:``est::{U+2248}
+:CO?:``neq::{U+2260}
+:CO?:``identicalto::{U+2261}
+:CO?:``lteq::{U+2264}
+:CO?:``gteq::{U+2265}
 
