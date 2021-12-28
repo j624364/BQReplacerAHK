@@ -262,3 +262,16 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``lteq::{U+2264}
 :CO?:``gteq::{U+2265}
 
+; emoji
+; (not doing many of these)
+
+:CO?:``wsmiling::{U+263A}
+:CO?:``bsmiling::{U+263B}
+:CO?:``sun::{U+263C}
+:CO?:``female::{U+2640}
+:CO?:``male::{U+2642}
+:CO?:``spade::{U+2660}
+:CO?:``club::{U+2663}
+:CO?:``heart::{U+2665}
+:CO?:``diamond::{U+2666}
+
