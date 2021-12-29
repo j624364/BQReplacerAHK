@@ -262,6 +262,8 @@ SetWorkingDir %A_ScriptDir%
 
 :CO?:``short::{U+0306}
 :CO?:``long::{U+02D0}
+:CO?:``pstress::{U+02C8}
+:CO?:``sstress::{U+02CC}
 
 :CO?:``mlt::{U+00D7}
 :CO?:``div::{U+00F7}
