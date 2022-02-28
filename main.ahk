@@ -372,6 +372,8 @@ return
 	v::Send, {U+0432}
 	+x::Send, {U+0425}
 	x::Send, {U+0445}
+	!+x::Send, {U+04B2}
+	!x::Send, {U+04B3}
 	+y::Send, {U+042B}
 	y::Send, {U+044B}
 	!+y::Send, {U+04E8}
