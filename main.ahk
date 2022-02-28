@@ -294,3 +294,87 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``heart::{U+2665}
 :CO?:``diamond::{U+2666}
 
+; cyrillic
+
+isCyrillic := false
+
+LControl & Ins::
+isCyrillic := true
+return
+
+LControl & Home::
+isCyrillic := false
+return
+
+#If isCyrillic
+{
+	+a::Send, {U+0410}
+	a::Send, {U+0430}
+	!+a::Send, {U+042F}
+	!a::Send, {U+044F}
+	+b::Send, {U+0411}
+	b::Send, {U+0431}
+	+c::Send, {U+0426}
+	c::Send, {U+0446}
+	!+c::Send, {U+0427}
+	!c::Send, {U+0447}
+	+d::Send, {U+0414}
+	d::Send, {U+0434}
+	+e::Send, {U+042D}
+	e::Send, {U+044D}
+	!+e::Send, {U+0415}
+	!e::Send, {U+0435}
+	+f::Send, {U+0424}
+	f::Send, {U+0444}
+	+g::Send, {U+0413}
+	g::Send, {U+0433}
+	+h::Send, {U+04BA}
+	h::Send, {U+04BB}
+	+i::Send, {U+0418}
+	i::Send, {U+0438}
+	!+i::Send, {U+0419}
+	!i::Send, {U+0439}
+	+j::Send, {U+042C} ; palatalisation
+	j::Send, {U+044C}
+	!+j::Send, {U+042A} ; no palatalisation
+	!j::Send, {U+044A}
+	+k::Send, {U+041A}
+	k::Send, {U+043A}
+	+l::Send, {U+041B}
+	l::Send, {U+043B}
+	+m::Send, {U+041C}
+	m::Send, {U+043C}
+	+n::Send, {U+041D}
+	n::Send, {U+043D}
+	+o::Send, {U+041E}
+	o::Send, {U+043E}
+	!+o::Send, {U+0401}
+	!o::Send, {U+0451}
+	+p::Send, {U+041F}
+	p::Send, {U+043F}
+	+r::Send, {U+0420}
+	r::Send, {U+0440}
+	+s::Send, {U+0421}
+	s::Send, {U+0441}
+	!+s::Send, {U+0428}
+	!s::Send, {U+0448}
+	+t::Send, {U+0422}
+	t::Send, {U+0442}
+	+u::Send, {U+0423}
+	u::Send, {U+0443}
+	!+u::Send, {U+042E}
+	!u::Send, {U+044E}
+	+v::Send, {U+0412}
+	v::Send, {U+0432}
+	+x::Send, {U+0425}
+	x::Send, {U+0445}
+	+y::Send, {U+042B}
+	y::Send, {U+044B}
+	!+y::Send, {U+04E8}
+	!y::Send, {U+04E9}
+	+z::Send, {U+0417}
+	z::Send, {U+0437}
+	!+z::Send, {U+0416}
+	!z::Send, {U+0436}
+}
+
