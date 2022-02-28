@@ -340,6 +340,8 @@ return
 	!j::Send, {U+044A}
 	+k::Send, {U+041A}
 	k::Send, {U+043A}
+	!+k::Send, {U+049A}
+	!k::Send, {U+049B}
 	+l::Send, {U+041B}
 	l::Send, {U+043B}
 	!+l::Send, {U+0409}
