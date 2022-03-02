@@ -382,5 +382,8 @@ return
 	z::Send, {U+0437}
 	!+z::Send, {U+0416}
 	!z::Send, {U+0436}
+
+	; diacritic
+	q::Send, {U+0301}
 }
 
