@@ -296,14 +296,23 @@ SetWorkingDir %A_ScriptDir%
 
 ; cyrillic
 
+;; coulnt get enums (or similar) to work so this is the result
 isCyrillic := false
+isGreek := false
 
 LControl & Ins::
 isCyrillic := true
+isGreek := false
 return
 
 LControl & Home::
 isCyrillic := false
+isGreek := false
+return
+
+LControl & End::
+isCyrillic := false
+isGreek := true
 return
 
 #If isCyrillic
@@ -387,3 +396,83 @@ return
 	q::Send, {U+0301}
 }
 
+PrintChar(majiscule, miniscule)
+{
+	if GetKeyState("LShift","P")=1 {
+		Send %majiscule%
+	}
+	else {
+		Send %miniscule%
+	}
+
+}
+
+#If isGreek
+{
+	+a::Send, {U+0391}
+	a::Send, {U+03B1}
+	!+a::Send, {U+0386}
+	!a::Send, {U+03AC}
+	+b::Send, {U+0392}
+	b::Send, {U+03B2}
+	+c::Send, {U+03A8}
+	c::Send, {U+03C8}
+	+d::Send, {U+0394}
+	d::Send, {U+03B4}
+	+e::Send, {U+0395}
+	e::Send, {U+03B5}
+	!+e::Send, {U+0388}
+	!e::Send, {U+03AD}
+	+f::Send, {U+03A6}
+	f::Send, {U+03C6}
+	+g::Send, {U+0393}
+	g::Send, {U+03B3}
+	+h::Send, {U+0397}
+	h::Send, {U+03B7}
+	!+h::Send, {U+0389}
+	!h::Send, {U+03AE}
+	+i::Send, {U+0399}
+	i::Send, {U+03B9}
+	!+i::Send, {U+038A}
+	!i::Send, {U+03AF}
+	+j::Send, {U+039E}
+	j::Send, {U+03BE}
+	+k::Send, {U+039A}
+	k::Send, {U+03BA}
+	+l::Send, {U+039B}
+	l::Send, {U+03BB}
+	+m::Send, {U+039C}
+	m::Send, {U+03BC}
+	+n::Send, {U+039D}
+	n::Send, {U+03BD}
+	+o::Send, {U+039F}
+	o::Send, {U+03BF}
+	!+o::Send, {U+038C}
+	!o::Send, {U+03CC}
+	+p::Send, {U+03A0}
+	p::Send, {U+03C0}
+	+q::Send, {U+03F4} ; ϴ
+	q::Send, {U+03D1}  ; ϑ
+	+r::Send, {U+03A1}
+	r::Send, {U+03C1}
+	+s::Send, {U+03A3}
+	s::Send, {U+03C3}
+	+t::Send, {U+03A4}
+	t::Send, {U+03C4}
+	+u::Send, {U+0398}
+	u::Send, {U+03B8}
+	+v::Send, {U+03A9}
+	v::Send, {U+03C9}
+	!+v::Send, {U+038F}
+	!v::Send, {U+03CE}
+	; +w::Send, {U+03C4}
+	w::Send, {U+03C2}
+	+x::Send, {U+03A7}
+	x::Send, {U+03C7}
+	+y::Send, {U+03A5}
+	y::Send, {U+03C5}
+	!+y::Send, {U+038E}
+	!y::Send, {U+03CD}
+	+z::Send, {U+0396}
+	z::Send, {U+03B6}
+}
