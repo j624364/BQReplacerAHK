@@ -320,20 +320,20 @@ return
 {
 	+a::Send, {U+0410}
 	a::Send, {U+0430}
-	!+a::Send, {U+042F}
-	!a::Send, {U+044F}
+	<^>!+a::Send, {U+042F}
+	<^>!a::Send, {U+044F}
 	+b::Send, {U+0411}
 	b::Send, {U+0431}
 	+c::Send, {U+0426}
 	c::Send, {U+0446}
-	!+c::Send, {U+0427}
-	!c::Send, {U+0447}
+	<^>!+c::Send, {U+0427}
+	<^>!c::Send, {U+0447}
 	+d::Send, {U+0414}
 	d::Send, {U+0434}
 	+e::Send, {U+042D}
 	e::Send, {U+044D}
-	!+e::Send, {U+0415}
-	!e::Send, {U+0435}
+	<^>!+e::Send, {U+0415}
+	<^>!e::Send, {U+0435}
 	+f::Send, {U+0424}
 	f::Send, {U+0444}
 	+g::Send, {U+0413}
@@ -342,56 +342,56 @@ return
 	h::Send, {U+04BB}
 	+i::Send, {U+0418}
 	i::Send, {U+0438}
-	!+i::Send, {U+0419}
-	!i::Send, {U+0439}
+	<^>!+i::Send, {U+0419}
+	<^>!i::Send, {U+0439}
 	+j::Send, {U+042C} ; palatalisation
 	j::Send, {U+044C}
-	!+j::Send, {U+042A} ; no palatalisation
-	!j::Send, {U+044A}
+	<^>!+j::Send, {U+042A} ; no palatalisation
+	<^>!j::Send, {U+044A}
 	+k::Send, {U+041A}
 	k::Send, {U+043A}
-	!+k::Send, {U+049A}
-	!k::Send, {U+049B}
+	<^>!+k::Send, {U+049A}
+	<^>!k::Send, {U+049B}
 	+l::Send, {U+041B}
 	l::Send, {U+043B}
-	!+l::Send, {U+0409}
-	!l::Send, {U+0459}
+	<^>!+l::Send, {U+0409}
+	<^>!l::Send, {U+0459}
 	+m::Send, {U+041C}
 	m::Send, {U+043C}
 	+n::Send, {U+041D}
 	n::Send, {U+043D}
 	+o::Send, {U+041E}
 	o::Send, {U+043E}
-	!+o::Send, {U+0401}
-	!o::Send, {U+0451}
+	<^>!+o::Send, {U+0401}
+	<^>!o::Send, {U+0451}
 	+p::Send, {U+041F}
 	p::Send, {U+043F}
 	+r::Send, {U+0420}
 	r::Send, {U+0440}
 	+s::Send, {U+0421}
 	s::Send, {U+0441}
-	!+s::Send, {U+0428}
-	!s::Send, {U+0448}
+	<^>!+s::Send, {U+0428}
+	<^>!s::Send, {U+0448}
 	+t::Send, {U+0422}
 	t::Send, {U+0442}
 	+u::Send, {U+0423}
 	u::Send, {U+0443}
-	!+u::Send, {U+042E}
-	!u::Send, {U+044E}
+	<^>!+u::Send, {U+042E}
+	<^>!u::Send, {U+044E}
 	+v::Send, {U+0412}
 	v::Send, {U+0432}
 	+x::Send, {U+0425}
 	x::Send, {U+0445}
-	!+x::Send, {U+04B2}
-	!x::Send, {U+04B3}
+	<^>!+x::Send, {U+04B2}
+	<^>!x::Send, {U+04B3}
 	+y::Send, {U+042B}
 	y::Send, {U+044B}
-	!+y::Send, {U+04E8}
-	!y::Send, {U+04E9}
+	<^>!+y::Send, {U+04E8}
+	<^>!y::Send, {U+04E9}
 	+z::Send, {U+0417}
 	z::Send, {U+0437}
-	!+z::Send, {U+0416}
-	!z::Send, {U+0436}
+	<^>!+z::Send, {U+0416}
+	<^>!z::Send, {U+0436}
 
 	; diacritic
 	q::Send, {U+0301}
@@ -412,8 +412,8 @@ PrintChar(majiscule, miniscule)
 {
 	+a::Send, {U+0391}
 	a::Send, {U+03B1}
-	!+a::Send, {U+0386}
-	!a::Send, {U+03AC}
+	<^>!+a::Send, {U+0386}
+	<^>!a::Send, {U+03AC}
 	+b::Send, {U+0392}
 	b::Send, {U+03B2}
 	+c::Send, {U+03A8}
@@ -422,20 +422,20 @@ PrintChar(majiscule, miniscule)
 	d::Send, {U+03B4}
 	+e::Send, {U+0395}
 	e::Send, {U+03B5}
-	!+e::Send, {U+0388}
-	!e::Send, {U+03AD}
+	<^>!+e::Send, {U+0388}
+	<^>!e::Send, {U+03AD}
 	+f::Send, {U+03A6}
 	f::Send, {U+03C6}
 	+g::Send, {U+0393}
 	g::Send, {U+03B3}
 	+h::Send, {U+0397}
 	h::Send, {U+03B7}
-	!+h::Send, {U+0389}
-	!h::Send, {U+03AE}
+	<^>!+h::Send, {U+0389}
+	<^>!h::Send, {U+03AE}
 	+i::Send, {U+0399}
 	i::Send, {U+03B9}
-	!+i::Send, {U+038A}
-	!i::Send, {U+03AF}
+	<^>!+i::Send, {U+038A}
+	<^>!i::Send, {U+03AF}
 	+j::Send, {U+039E}
 	j::Send, {U+03BE}
 	+k::Send, {U+039A}
@@ -448,8 +448,8 @@ PrintChar(majiscule, miniscule)
 	n::Send, {U+03BD}
 	+o::Send, {U+039F}
 	o::Send, {U+03BF}
-	!+o::Send, {U+038C}
-	!o::Send, {U+03CC}
+	<^>!+o::Send, {U+038C}
+	<^>!o::Send, {U+03CC}
 	+p::Send, {U+03A0}
 	p::Send, {U+03C0}
 	+q::Send, {U+03F4} ; ϴ
@@ -464,16 +464,16 @@ PrintChar(majiscule, miniscule)
 	u::Send, {U+03B8}
 	+v::Send, {U+03A9}
 	v::Send, {U+03C9}
-	!+v::Send, {U+038F}
-	!v::Send, {U+03CE}
+	<^>!+v::Send, {U+038F}
+	<^>!v::Send, {U+03CE}
 	; +w::Send, {U+03C4}
 	w::Send, {U+03C2}
 	+x::Send, {U+03A7}
 	x::Send, {U+03C7}
 	+y::Send, {U+03A5}
 	y::Send, {U+03C5}
-	!+y::Send, {U+038E}
-	!y::Send, {U+03CD}
+	<^>!+y::Send, {U+038E}
+	<^>!y::Send, {U+03CD}
 	+z::Send, {U+0396}
 	z::Send, {U+03B6}
 }
