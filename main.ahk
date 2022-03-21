@@ -48,6 +48,8 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``e0::e{U+030A}
 :CO?:``E-::{U+0112}
 :CO?:``e-::{U+0113}
+:CO?:``E7::{U+011A}
+:CO?:``e7::{U+011B}
 
 :CO?:``Schwa::{U+018F}
 :CO?:``schwa::{U+0259}
@@ -155,6 +157,8 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``C/::{U+00C7}
 :CO?:``c/::{U+00E7}
 :CO?:``copy::{U+00A9}
+:CO?:``C7::{U+010C}
+:CO?:``c7::{U+010D}
 
 :CO?:``D-::{U+00D0}
 :CO?:``d-::{U+00F0}
@@ -215,6 +219,8 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``s/::{U+015F}
 :CO?:``sh::{U+0283}
 :CO?:``ss::{U+00DF}
+:CO?:``S7::{U+0160}
+:CO?:``s7::{U+0161}
 
 :CO?:``T-::{U+00DE}
 :CO?:``t-::{U+00FE}
@@ -229,6 +235,8 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``z/::{U+0240}
 :CO?:``ZH::{U+01B7}
 :CO?:``zh::{U+0292}
+:CO?:``Z7::{U+017D}
+:CO?:``z7::{U+017E}
 
 :CO?:``?::{U+0294}
 
@@ -330,10 +338,17 @@ return
 	<^>!c::Send, {U+0447}
 	+d::Send, {U+0414}
 	d::Send, {U+0434}
-	+e::Send, {U+042D}
-	e::Send, {U+044D}
-	<^>!+e::Send, {U+0415}
-	<^>!e::Send, {U+0435}
+
+	; russian letters
+	; +e::Send, {U+042D}
+	; e::Send, {U+044D}
+	; <^>!+e::Send, {U+0415}
+	; <^>!e::Send, {U+0435}
+	+e::Send, {U+0415}
+	e::Send, {U+0435}
+	<^>!+e::Send, {U+0404}
+	<^>!e::Send, {U+0454}
+
 	+f::Send, {U+0424}
 	f::Send, {U+0444}
 	+g::Send, {U+0413}
@@ -344,10 +359,8 @@ return
 	i::Send, {U+0438}
 	<^>!+i::Send, {U+0419}
 	<^>!i::Send, {U+0439}
-	+j::Send, {U+042C} ; palatalisation
-	j::Send, {U+044C}
-	<^>!+j::Send, {U+042A} ; no palatalisation
-	<^>!j::Send, {U+044A}
+	+j::Send, {U+0408}
+	j::Send, {U+0458}
 	+k::Send, {U+041A}
 	k::Send, {U+043A}
 	<^>!+k::Send, {U+049A}
@@ -360,12 +373,18 @@ return
 	m::Send, {U+043C}
 	+n::Send, {U+041D}
 	n::Send, {U+043D}
+	<^>!+n::Send, {U+040A}
+	<^>!n::Send, {U+045A}
 	+o::Send, {U+041E}
 	o::Send, {U+043E}
 	<^>!+o::Send, {U+0401}
 	<^>!o::Send, {U+0451}
 	+p::Send, {U+041F}
 	p::Send, {U+043F}
+	+q::Send, {U+042C} ; palatalisation
+	q::Send, {U+044C}
+	<^>!+q::Send, {U+042A} ; no palatalisation
+	<^>!q::Send, {U+044A}
 	+r::Send, {U+0420}
 	r::Send, {U+0440}
 	+s::Send, {U+0421}
@@ -394,7 +413,7 @@ return
 	<^>!z::Send, {U+0436}
 
 	; diacritic
-	q::Send, {U+0301}
+	'::Send, {U+0301}
 }
 
 PrintChar(majiscule, miniscule)
