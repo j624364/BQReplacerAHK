@@ -50,6 +50,10 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``e-::{U+0113}
 :CO?:``E7::{U+011A}
 :CO?:``e7::{U+011B}
+:CO?:``Eg::{U+0118}
+:CO?:``eg::{U+0119}
+:CO?:``E.::{U+0116}
+:CO?:``e.::{U+0117}
 
 :CO?:``Schwa::{U+018F}
 :CO?:``schwa::{U+0259}
@@ -98,6 +102,8 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``o/'::{U+01FF}
 :CO?:``OG::{U+01EA}
 :CO?:``og::{U+01EB}
+:CO?:``O.::{U+022E}
+:CO?:``o.::{U+022F}
 
 :CO?:``oh::{U+0254}
 
@@ -126,6 +132,8 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``u0::{U+016F}
 :CO?:``U-::{U+016A}
 :CO?:``u-::{U+016B}
+:CO?:``Ug::{U+0172}
+:CO?:``ug::{U+0173}
 
 :CO?:``oo::{U+028A}
 :CO?:``uh::{U+028C}
@@ -152,6 +160,8 @@ SetWorkingDir %A_ScriptDir%
 
 :CO?:``bh::{U+03B2}
 
+:CO?:``C'::{U+0106}
+:CO?:``c'::{U+0107}
 :CO?:``C6::{U+0108}
 :CO?:``c6::{U+0109}
 :CO?:``C/::{U+00C7}
@@ -160,8 +170,12 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``C7::{U+010C}
 :CO?:``c7::{U+010D}
 
+:CO?:``D'::D{U+0301}
+:CO?:``d'::d{U+0301}
 :CO?:``D-::{U+00D0}
 :CO?:``d-::{U+00F0}
+:CO?:``D--::{U+0110}
+:CO?:``d--::{U+0111}
 
 :CO?:``ph::{U+0278}
 
@@ -211,6 +225,8 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``rh::{U+0281}
 :CO?:``reg::{U+00AE}
 
+:CO?:``S'::{U+015A}
+:CO?:``s'::{U+015B}
 :CO?:``S6::{U+015C}
 :CO?:``s6::{U+015D}
 :CO?:``S-::S{U+0304}
@@ -222,6 +238,8 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``S7::{U+0160}
 :CO?:``s7::{U+0161}
 
+:CO?:``T'::T{U+0301}
+:CO?:``t'::t{U+0301}
 :CO?:``T-::{U+00DE}
 :CO?:``t-::{U+00FE}
 :CO?:``theta::{U+03B8}
@@ -231,6 +249,8 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``w6::{U+0175}
 :CO?:``lab::{U+02B7}
 
+:CO?:``Z'::{U+0179}
+:CO?:``z'::{U+017A}
 :CO?:``Z/::{U+2C7F}
 :CO?:``z/::{U+0240}
 :CO?:``ZH::{U+01B7}
