@@ -29,6 +29,8 @@ SetWorkingDir %A_ScriptDir%
 :CO?:``ae'::{U+01FD}
 :CO?:``AE6::{U+00C6}{U+0302}
 :CO?:``ae6::{U+00E6}{U+0302}
+:CO?:``AE-::{U+01E2}
+:CO?:``ae-::{U+01E3}
 
 :CO?:``ah::{U+0251}
 :CO?:``ao::{U+0252}
@@ -434,17 +436,6 @@ return
 
 	; diacritic
 	'::Send, {U+0301}
-}
-
-PrintChar(majiscule, miniscule)
-{
-	if GetKeyState("LShift","P")=1 {
-		Send %majiscule%
-	}
-	else {
-		Send %miniscule%
-	}
-
 }
 
 #If isGreek
